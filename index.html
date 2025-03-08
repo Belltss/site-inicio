@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="shortcut icon" href="pizza.png" type="image/x-icon">
+
+
+    <title>Pizzaraia do Jao</title>
+    <link rel="stylesheet" href="pizzaria.css">
+</head>
+
+<body>
+<h1 class="supertitulo">Pizzaria do Jao</h1>
+
+<h3 class="subtitulo">A melhor da região!!</h3>
+
+<img src="estevepizza.png" alt="mascote" class="mascote">
+
+<img class="banner" src="bannerpizza-1.jpg" alt="pizzabanner">
+
+<H2 class="textomonte">Monte sua pizza</H2>
+
+<div class="conteudo"></div>
+
+<form class="formulario" action="pedidos" method="get"></form>
+
+Nome: <input type="text" name=""> 
+
+<br>
+
+Email: <input type="email" name="email"> 
+
+<br>
+
+Tamanho: <input type="radio" name="tamanho" value="g"> Grande
+         <input type="radio" name="tamanho" value="m"> Medio
+         <input type="radio" name="tamanho" value="p"> Pequeno
+         <br>
+
+        Sabor: <select name="sabor" id="">
+           <option>Marguerita</option>
+           <option>Portuguesa</option>
+           <option>Napolitana</option>
+
+       </select>
+
+       <br>
+
+       Adionais:<input type="checkbox" name="borda" value="sim"> Borda Recheada
+       <input type="checkbox" name="queijo" value="sim"> Queijo Extra
+       <br>
+
+       Data Entrega: <input type="date" name="dataentrega">
+       <br>
+
+       Comentário <Textarea name="mensagem" rows="10" cols="30"></Textarea>
+       <br>
+       <input type="submit">
+
+       
+
+
+</body>
+</html>
